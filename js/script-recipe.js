@@ -14,4 +14,10 @@ $(document).ready( function(){
 		$(".js-show-recipe").addClass("active");
 		$(".js-show-make").removeClass("active");
 	});
+
+//volver al index
+$(".js-back").click(function(){
+	window.location = 'index.html';
+});
+
 });
